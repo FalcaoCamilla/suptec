@@ -1,0 +1,116 @@
+#background{
+    background-image: url(/imagens/background.jpg);
+    background-size: 31%;
+}
+.imagem{
+    width: 940px;
+}
+.imagem img{
+    border-radius: 30px;
+    width: 250px;
+    display: inline-block;
+    margin: 0 0 0 5px;  
+}
+#first-img{
+    margin: 0 0 0 170px;
+}
+.foxy{
+    display: inline-block;
+    width: 10%;
+    margin: 8px 0 0 30px;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    background: #f3f1f1;
+	box-shadow: 7px 5px 4px rgba(223, 222, 222, 0.77);
+    padding-right: 29%;
+    height: 100px;
+}  
+nav{
+    position: absolute;
+    top: 50px;
+    right: 35px;
+}  
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+li a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: #545454;
+}
+
+li a:hover{
+    color: #D55029;
+}
+
+main{
+    margin: 20px 35px 0;
+    background: #ffffff;
+    box-shadow: 5px 5px 5px rgba(179, 178, 178, 0.77);
+}
+  
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    color: #545454;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    margin: 0 10px 8px;
+    color: #545454;
+}
+
+h4{
+    font-family: 'Rubik', sans-serif;
+    margin: 12px 10px 8px;
+    color: #D55029;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 15px 0;
+}
+.botoes{
+    text-align: center;
+}
+button{
+    width: 20%;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background: #D55029;
+    color: white;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0 13px 1em;
+}
+  
+button:hover{
+    background-color: #545454;
+    transform: scale(1.2);
+}
+  
+footer{
+    text-align: center;
+    background-color: #f3f1f1;
+    margin-top: 10px;
+}
+.copyright{
+    color: #000000;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+footer img{
+    width: 90px;
+}
