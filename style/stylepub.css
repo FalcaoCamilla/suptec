@@ -99,10 +99,17 @@ td{
 .instituicoes{
     width: 100%;
 }
-.ifpar{
+.instituto{
     width: 300px;
     height: 200px;
-    margin-left: 90px;
+    margin-left: 60px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.instituto1{
+    width: 300px;
+    height: 218px;
+    margin-left: 60px;
     border-radius: 10px;
     display: inline-block;
 }

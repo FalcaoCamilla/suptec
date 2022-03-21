@@ -3,16 +3,16 @@
     background-size: 31%;
 }
 .imagem{
-    width: 940px;
+    width: 100%;
 }
 .imagem img{
     border-radius: 30px;
     width: 250px;
     display: inline-block;
-    margin: 0 0 0 5px;  
+    margin: auto;  
 }
 #first-img{
-    margin: 0 0 0 170px;
+    margin: 0 0 0 230px;
 }
 .foxy{
     display: inline-block;
@@ -76,6 +76,8 @@ h4{
 p{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
     margin: 0 15px 0;
 }
 .botoes{
