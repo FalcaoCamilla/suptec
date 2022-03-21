@@ -2,18 +2,6 @@
     background-image: url(/suptec/imagens/background.jpg);
     background-size: 31%;
 }
-.imagem{
-    width: 940px;
-}
-.imagem img{
-    border-radius: 30px;
-    width: 250px;
-    display: inline-block;
-    margin: 0 0 0 5px;  
-}
-#first-img{
-    margin: 0 0 0 170px;
-}
 .foxy{
     display: inline-block;
     width: 10%;
@@ -52,7 +40,6 @@ main{
     background: #ffffff;
     box-shadow: 5px 5px 5px rgba(179, 178, 178, 0.77);
 }
-  
 h2{
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
@@ -60,46 +47,83 @@ h2{
     margin: 15px;
     color: #545454;
 }
-
-h3{
-    font-family: 'Rubik', sans-serif;
-    margin: 0 10px 8px;
-    color: #545454;
+.titulo2{
+    padding: 15px;
 }
-
-h4{
-    font-family: 'Rubik', sans-serif;
-    margin: 12px 10px 8px;
-    color: #D55029;
+.intro{
+    text-align: center;
 }
-
 p{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     margin: 0 15px 0;
 }
-.botoes{
+table{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border:#D55029 solid;
+    transition: 2s;
+}
+table:hover{
+    transform:scale(1.1);
+    transition: 2s;
+}
+table a{
+    text-decoration: none;
+    color: black;
+}
+table a:hover{
+    color: #D55029;
+}
+th{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px;
+    color: #545454;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+}
+td{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    padding: 3px 8px;
     text-align: center;
 }
-button{
-    width: 20%;
-    padding: 15px 0;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
+.planodecurso{
+    font-size: 13px;
+    text-align: center;
+}
+.instituicoes{
+    width: 100%;
+}
+.ifpar{
+    width: 300px;
+    height: 200px;
+    margin-left: 90px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.instituicoes p{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    bottom: 74px;
+    background-color: #faf9f9;
+    padding: 71px 20px 67px;
     border-radius: 5px;
-    background: #D55029;
-    color: white;
-    transition: 1s all;
-    cursor: pointer;
-    margin: 0 13px 1em;
+    color:#D55029;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    box-shadow: 5px 4px 6px rgba(223, 222, 222, 0.77);
 }
-  
-button:hover{
-    background-color: #545454;
-    transform: scale(1.2);
+iframe{
+    border: 0;
 }
-  
 footer{
     text-align: center;
     background-color: #f3f1f1;

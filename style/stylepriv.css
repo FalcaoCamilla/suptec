@@ -1,0 +1,68 @@
+#background{
+    background-image: url(/suptec/imagens/background.jpg);
+    background-size: 31%;
+}
+.foxy{
+    display: inline-block;
+    width: 10%;
+    margin: 8px 0 0 30px;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    background: #f3f1f1;
+	box-shadow: 7px 5px 4px rgba(223, 222, 222, 0.77);
+    padding-right: 29%;
+    height: 100px;
+}  
+nav{
+    position: absolute;
+    top: 50px;
+    right: 35px;
+}  
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+  }
+li a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: #545454;
+}
+
+li a:hover{
+    color: #D55029;
+}
+
+main{
+    margin: 20px 35px 0;
+    background: #ffffff;
+    box-shadow: 5px 5px 5px rgba(179, 178, 178, 0.77);
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    color: #545454;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 15px 0;
+}
+footer{
+    text-align: center;
+    background-color: #f3f1f1;
+    margin-top: 10px;
+}
+.copyright{
+    color: #000000;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+footer img{
+    width: 90px;
+}
