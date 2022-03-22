@@ -76,6 +76,26 @@
             <button onclick="window.location.href = 'publicas.html'">Públicas</button>
         </div>
     </main>
+    <div>
+        <button onclick="backToTop()" id="btntop" ><img src="/suptec/imagens/seta.png" height="20px" width="20px"></button>
+        <script>
+            window.onscroll = function(){
+                scroll();
+            }
+            function scroll(){
+                var btn = document.getElementById("btntop")
+                if(document.documentElement.scrollTop>200){
+                    btn.style.display="block";
+                }else{
+                    btn.style.display = "none";
+                }
+            }
+            function backToTop(){
+                document.documentElement.scrollTop = 0;
+
+            }
+        </script>
+        </div>
     <footer>
         <img src="/suptec/imagens/foxy.png" alt="Imagem da logo">
         <p class="copyright"><strong>Feito por Camilla Falcão e Maria Luiza Monteiro &copy; Todos os direitos reservados
